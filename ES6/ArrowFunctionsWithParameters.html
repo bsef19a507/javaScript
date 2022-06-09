@@ -12,16 +12,12 @@
 
 	<script >
 	
-	hello = () => {
-		return "Hello World";
+	hello = (name) => {
+		return "My name is "+name;
 	}
-
-	// short form ... uncommit it and check
-	//hello = () => "Hello World";
-
-	document.write(hello());
-		
 	</script>
+	
+	<h1><script>document.write(hello("John"));</script></h1>
 
 </body>
 
